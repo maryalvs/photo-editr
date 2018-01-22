@@ -1,4 +1,5 @@
 # Project Proposal Document
+See presentation slide deck [here](https://github.com/maryalvs/photo-editr/blob/master/project%20proposal/proposal_presentation_numbered.pdf).
 
 ### Description
 Many existing mobile photo editing apps are centered around allowing the user to adjust the color and lighting of the photo. For example, Instagram allows the user to apply filters, adjust brightness, contrast, saturation, etc. It is less common, however, for these photo editing apps to also support actions such as selecting an area of the image and copying it onto another image, or pinching and stretching the image. These features would cater to an end user who wishes to create images for marketing, art, or just for fun. In an increasingly mobile world, these functionalities need to be easily accessible from a mobile application.      
