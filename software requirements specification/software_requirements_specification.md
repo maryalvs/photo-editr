@@ -19,7 +19,7 @@ Section 5.4 contains the evironmental requirements of the application.
 #### 5.2 Functional Requirements
 #### 5.2.1 Select Photo Interface
 The Select Photo Interface shall allow the user to select a photo to edit. Once a photo is selected, the 
-Edit Photo Interface will be displayed using that photo.
+Edit Photo Interface will be displayed using that photo.             
 #### 5.2.1.1  The Select Photo Interface shall provide a menu system to select a photo.
 The application shall display the Select Photo Interface when initially opened by the user.
 This interface will allow the user to select a photo to edit by either (1) uploading a photo
@@ -39,31 +39,15 @@ The interface shall provide a button that saves the edited photo to the phone's 
 The interface shall provide a button that brings the user back to the Select Photo Interface without saving the transformations of
 the currently selected photo.
 #### 5.2.3 Photo Library Interface
-
-#### 5.3   Performance Requirements
-#### 5.3.1 Application Boot Time
-#### 5.3.1.1  
-The application shall open the inital interface within 5 seconds of the application being clicked on 
-by the user.      
-#### 5.3.2 Apply Transformations to Photo Time
-#### 5.3.2.1
-Each transformation of the photo must be applied in under 2 seconds.           
-#### 5.3.3 Save Photo Time
-#### 5.3.3.1
-A photo must be saved to the phone's photo library in under 5 seconds after "Save" is clicked by
-the user.
-#### 5.3.3.2 
-A photo must be saved to the application's photo library in under 5 seconds after "Save" is clicked by
-the user.             
-              
-#### 5.4   Environment Requirements
-An Android phone is required for this project. The application will be written in Java using an Android Software
-Development Kit (SDK) and will not be tested with any platform other than Android phones.    
-      
-#### 5.4.1 Development Environment Requirements
-The application will be developed using an Android SDK using the Java language. Android Studio allows Android applications
-to be tested and run using an emulator, so an actual Android phone is not needed for the development of this project.    
-         
-#### 5.4.2 Execution Environment Requirements
-The application can and will only be executed on Android phones that can download applications. Internet connection
-is not necessary to use the application once it has been downloaded by the device.
+The Photo Library Interface shall display every photo that has been edited using the application.
+#### 5.2.3.1 The Photo Library Interface shall display a thumbnail of the actual photo.
+The Photo Library shall display thumbnails of all the photos in the library.
+#### 5.2.3.2 Photos displayed in the library can be selected by the user.
+The user can select a photo in the library by clicking on the thumbnail. The photo should be displayed 
+differently from the others if it is selected.
+#### 5.2.3.3 A button shall exist to edit the selected photo.
+A button exists on the Photo Library Interface when a photo is selected that will open the Edit Photo Interface
+with the selected photo when clicked.
+#### 5.2.3.4 A button shall exist to delete the selected photo.
+A button exists on the Photo Library Interface when a photo is selected that will remove the photo from the 
+application's photo library when clicked. After this, the photo should no longer be displayed on the Photo Library Interface.
