@@ -7,9 +7,10 @@ the application’s native photo library or export it to the user’s phone’s 
 the user to adjust contrast, saturation, brightness and temperature. It will have filters that can be applied to the
 image in various strengths. It will have the capability to copy and paste selections of images onto each other, and
 it will have the capability to pinch and stretch areas of the image. It will have a brush action that will allow the
-user to “paint on” color to the photo, and it will have an eraser action that will allow the user to erase pixels.     
-
-[UML DIAGRAM HERE]
+user to “paint on” color to the photo, and it will have an eraser action that will allow the user to erase pixels.      
+                   
+photoEditr UML Diagram             
+![UML DIAGRAM](https://raw.githubusercontent.com/maryalvs/photo-editr/master/software%20requirements%20specification/uml.png)
 
 The remainder of this document is structured as follows:         
 Section 5.2 contains the functional requirements of the application.              
