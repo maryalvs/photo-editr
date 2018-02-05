@@ -18,18 +18,26 @@ Section 5.4 contains the evironmental requirements of the application.
                  
 #### 5.2 Functional Requirements
 #### 5.2.1 Select Photo Interface
-The Graphical User Interface for the application provides the user with a way to select the desired
-function from those which are available in the application.  Users may optionally use several methods
-for selection, all of which are considered synonymous to the application's operation.
+The Select Photo Interface shall allow the user to select a photo to edit. Once a photo is selected, the 
+Edit Photo Interface will be displayed using that photo.
 #### 5.2.1.1  The Select Photo Interface shall provide a menu system to select a photo.
-Application functions will include, but not be limited to, the following functions:
-                        * upload photo from phone library
-                        * choose photo from application photo library
-                        * take a new photo using the camera
-
-#### 5.2.1.2  The GUI shall provide a set of button widgets to access all functions of the application.
-Application functions accessed by the buttons are the same as in requirement 5.2.1.1 above.
+The application shall display the Select Photo Interface when initially opened by the user.
+This interface will allow the user to select a photo to edit by either (1) uploading a photo
+from the phone's library, (2) taking a new photo with the phone's camera, or (3) selecting a photo from
+the application's photo library.
+#### 5.2.1.2  The Select Photo Interface shall provide a set of buttons to select a photo in the 3 ways possible.
+The three buttons shall allow the user to select a photo by (1) uploading a photo
+from the phone's library, (2) opening the phone's camera, or (3) displaying the application's Photo Library Interface.
 #### 5.2.2 Edit Photo Interface
+The Edit Photo Interface shall allow the user to edit a single photo by applying various transformations.
+#### 5.2.1.1  The Edit Photo Interface shall provide a menu system to transform the photo.
+The Edit Photo Interface shall provide a menu system that has icons for each transformation that can be applied
+to the photo.
+#### 5.2.1.2 The Edit Photo Interface shall provide a button to save the photo.
+The interface shall provide a button that saves the edited photo to the phone's library as well as the application's photo library.
+#### 5.2.1.3 The Edit Photo Interface shall provide a button to discard the edited photo.
+The interface shall provide a button that brings the user back to the Select Photo Interface without saving the transformations of
+the currently selected photo.
 #### 5.2.3 Photo Library Interface
 
 #### 5.3   Performance Requirements
